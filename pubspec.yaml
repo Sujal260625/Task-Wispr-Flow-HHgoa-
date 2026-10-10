@@ -1,0 +1,16 @@
+name: bolo_and_build
+description: Voice-first desktop assistant. Speak apps into existence and control your PC.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.2.0
+dev_dependencies:
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
